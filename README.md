@@ -87,4 +87,4 @@ During the exploratory analysis of the dataset, several trends and patterns emer
 
   3. **Emoji Impact:** Contrary to the assumption that more emojis indicate greater positivity, a bar plot analysis demonstrates that the presence of emojis varies significantly across messages. While positive messages often incorporate emojis, negative messages tend to utilize them less frequently.
 
-![Emojis Impact](assets\output_has_emoji.png)
+![Emojis Impact](assets/output_has_emoji.png)
