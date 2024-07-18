@@ -79,7 +79,7 @@ During the exploratory analysis of the dataset, several trends and patterns emer
 
  1. **Sentiment Analysis:** A bar plot illustrates that a significant majority of comments exhibit positive sentiment. This observation underscores the predominantly positive nature of the dataset.
 
-![Sentiment Distribution](assets\output_sentiment_messages.png)
+![Sentiment Distribution](assets/output_sentiment_messages.png)
 
   1. **Common Words:** A word cloud visualization provides a clear depiction of the most frequently used words in the comments, emphasizing that larger words are predominantly positive in nature. This graphical representation enhances understanding of the prevalent sentiment conveyed through the comments.
 
