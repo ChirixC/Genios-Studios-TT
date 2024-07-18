@@ -72,13 +72,13 @@ Ensure you have Python 3.7+ installed. It's recommended to use a virtual environ
 - **read_data.ipynb**  
 This notebook reads and preprocesses the raw data into a cleaned CSV format suitable for analysis and modeling.
 
-- **clean_data.ipynb**
+- **clean_data.ipynb**  
 This notebook cleans the raw social media data, including removing nulls, duplicates, normalizing text, and extracting features like emojis and sentiment.
 
-- **eda.ipynb**
+- **eda.ipynb**  
 This notebook performs Exploratory Data Analysis (EDA) on the cleaned dataset, visualizing message lengths, word frequencies, sentiment distributions, temporal analysis, emoji presence, and user-specific insights.
 
-- **transformers.ipynb**
+- **transformers.ipynb**  
 This notebook implements a machine learning model using BERT for sentiment analysis on the preprocessed data.
 
 ## Exploratory Data Analysis (EDA)
@@ -90,7 +90,7 @@ During the exploratory analysis of the dataset, several trends and patterns emer
 
 ![Sentiment Distribution](assets/output_sentiment_messages.png)
 
-  1. **Common Words:** A word cloud visualization provides a clear depiction of the most frequently used words in the comments, emphasizing that larger words are predominantly positive in nature. This graphical representation enhances understanding of the prevalent sentiment conveyed through the comments.
+  2. **Common Words:** A word cloud visualization provides a clear depiction of the most frequently used words in the comments, emphasizing that larger words are predominantly positive in nature. This graphical representation enhances understanding of the prevalent sentiment conveyed through the comments.
 
 ![Most Common Words](assets/output_words.png)
 
@@ -108,11 +108,11 @@ The **dccuchile/bert-base-spanish-wwm-uncased** variant was selected due to its 
 
 In the model implementation process detailed in transformers.ipynb, we undertook several critical steps:
 
-**Data Selection:** We curated a dataset suitable for sentiment analysis in Spanish, ensuring diversity and relevance to our application domain.
+- **Data Selection:** We curated a dataset suitable for sentiment analysis in Spanish, ensuring diversity and relevance to our application domain.
 
-**Model Training:** The BERT model was fine-tuned on our labeled dataset using techniques such as transfer learning. This involved adapting the pre-trained BERT weights to our specific sentiment analysis task.
+- **Model Training:** The BERT model was fine-tuned on our labeled dataset using techniques such as transfer learning. This involved adapting the pre-trained BERT weights to our specific sentiment analysis task.
 
-**Model Evaluation:** Throughout training, we monitored the model's performance using standard evaluation metrics to ensure its effectiveness in capturing sentiment nuances.
+- **Model Evaluation:** Throughout training, we monitored the model's performance using standard evaluation metrics to ensure its effectiveness in capturing sentiment nuances.
 
 ### Performance Metrics
 
@@ -200,10 +200,10 @@ Due to the two-day testing period, it's important to note that there is still a 
 These enhancements and considerations pave the way for deeper insights and improved performance in sentiment analysis and model deployment.
 
 ## Author
-César Chirino
-Email: chirinocesar.me@gmail.com
-LinkedIn: César Chirino on LinkedIn
+César Chirino  
+*Email:* chirinocesar.me@gmail.com  
+*LinkedIn:* [César Chirino on LinkedIn](https://www.linkedin.com/in/cesar-chirino-b36ba5291/)
 
 ## License
-MIT License
+MIT License  
 Copyright (c) 2024 César Chirino
