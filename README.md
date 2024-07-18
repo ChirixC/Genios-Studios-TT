@@ -69,7 +69,7 @@ Ensure you have Python 3.7+ installed. It's recommended to use a virtual environ
 
 ## File Descriptions
 
-- **read_data.ipynb**
+- **read_data.ipynb**  
 This notebook reads and preprocesses the raw data into a cleaned CSV format suitable for analysis and modeling.
 
 - **clean_data.ipynb**
