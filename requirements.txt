@@ -2,3 +2,9 @@ numpy
 pandas
 matplotlib
 seaborn
+nltk
+emoji
+scikit-learn
+torch
+transformers
+wordcloud
